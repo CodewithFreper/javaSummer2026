@@ -24,7 +24,7 @@ public class Act01 {
 		do {
 			notaNumerica = sc.nextInt();
 			if (notaNumerica < 0 || notaNumerica > 10) {
-				System.out.println("Por favor, introduce una notra entre 0 y 10.");
+				System.out.println("Por favor, introduce una notra entre 0 y 10:");
 			}
 		} while (notaNumerica < 0 || notaNumerica > 10);
 
