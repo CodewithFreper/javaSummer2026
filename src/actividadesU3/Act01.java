@@ -27,18 +27,20 @@ public class Act01 {
 
 		
 		if (notaNumerica < 3) {
-			System.out.println("Muy deficiente");
+			notaPalabras = "Muy deficiente";
 		} else if (notaNumerica < 5) {
-			System.out.println("Insuficiente");
+			notaPalabras ="Insuficiente";
 		} else if (notaNumerica < 6) {
-			System.out.println("Suficiente");
+			notaPalabras = "Suficiente";
 		} else if (notaNumerica < 7) {
-			System.out.println("Bien");
+			notaPalabras = "Bien";
 		} else if (notaNumerica < 9) {
-			System.out.println("Notable");
+			notaPalabras = "Notable";
 		} else {
-			System.out.println("Excelente");
+			notaPalabras = "Excelente";
 		}
+		
+		System.out.println(notaPalabras);
 		
 	}
 
