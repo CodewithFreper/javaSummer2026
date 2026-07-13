@@ -26,6 +26,20 @@ public class Act01 {
 		} while (notaNumerica < 0 || notaNumerica < 10);
 
 		
+		if (notaNumerica < 3) {
+			System.out.println("Muy deficiente");
+		} else if (notaNumerica < 5) {
+			System.out.println("Insuficiente");
+		} else if (notaNumerica < 6) {
+			System.out.println("Suficiente");
+		} else if (notaNumerica < 7) {
+			System.out.println("Bien");
+		} else if (notaNumerica < 9) {
+			System.out.println("Notable");
+		} else {
+			System.out.println("Excelente");
+		}
+		
 	}
 
 }
