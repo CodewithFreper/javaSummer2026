@@ -9,11 +9,27 @@
 
 package actividadesU3;
 
+import java.util.Scanner;
+
 public class Act01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		int notaNumerica;
+		String notaPalabras;
 
+		do {
+			System.out.println("Hola, pon tu nota a continuación: ");
+			notaNumerica = sc.nextInt();
+		} while (notaNumerica < 0);
+		
+		
+		
+		
+		
+		
 	}
 
 }
