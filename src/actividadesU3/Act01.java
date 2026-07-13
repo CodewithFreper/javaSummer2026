@@ -45,6 +45,7 @@ public class Act01 {
 		
 		System.out.println(notaPalabras);
 		
+		sc.close();
 	}
 
 }
