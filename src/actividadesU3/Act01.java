@@ -20,10 +20,13 @@ public class Act01 {
 		int notaNumerica;
 		String notaPalabras;
 
+		System.out.println("Hola, pon tu nota a continuación: ");
 		do {
-			System.out.println("Hola, pon tu nota a continuación: ");
 			notaNumerica = sc.nextInt();
-		} while (notaNumerica < 0 || notaNumerica < 10);
+			if (notaNumerica < 0 || notaNumerica > 10) {
+				System.out.println("Por favor, introduce una notra entre 0 y 10.");
+			}
+		} while (notaNumerica < 0 || notaNumerica > 10);
 
 		
 		if (notaNumerica < 3) {
