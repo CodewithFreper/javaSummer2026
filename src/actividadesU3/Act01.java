@@ -23,12 +23,8 @@ public class Act01 {
 		do {
 			System.out.println("Hola, pon tu nota a continuación: ");
 			notaNumerica = sc.nextInt();
-		} while (notaNumerica < 0);
-		
-		
-		
-		
-		
+		} while (notaNumerica < 0 || notaNumerica < 10);
+
 		
 	}
 
